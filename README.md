@@ -66,50 +66,78 @@
 
 <tr>
 <td width="64">
-<p><strong>&nbsp;</strong></p>
+<p><strong>2</strong></p>
 </td>
 <td width="198">
-<p>&nbsp;</p>
+<p>Telegram Message</p>
 </td>
 <td width="141">
-<p>&nbsp;</p>
+<p>ایجاد یک کلاس با نام ذکر شده</p>
 </td>
 <td width="292">
-<p>&nbsp;</p>
+<p>افزودن یک کلاس برای پیام تلگرام جهت نگهداری آیدی مبدا و مقصد</p>
 </td>
 </tr>
 <tr>
 <td width="64">
-<p><strong>&nbsp;</strong></p>
+<p><strong>3</strong></p>
 </td>
 <td width="198">
-<p>&nbsp;</p>
+<p>Telegram Message Service</p>
 </td>
 <td width="141">
-<p>&nbsp;</p>
+<p>ایجاد یک کلاس با نام ذکر شده</p>
 </td>
 <td width="292">
-<p>&nbsp;</p>
+<p>ایجاد کلاس سرویس پیام تلگرام برای اعتبارسنجی آیدی مبدا و مقصد</p>
 </td>
 </tr>
 <tr>
 <td width="64">
-<p><strong>&nbsp;</strong></p>
+<p><strong>4</strong></p>
 </td>
 <td width="198">
-<p>&nbsp;</p>
+<p>SMS Message Service</p>
 </td>
 <td width="141">
-<p>&nbsp;</p>
+<p>افزودن تابع ارسال پیام تلگرامی</p>
 </td>
 <td width="292">
-<p>&nbsp;</p>
+<p>این تابع در واسط مربوط به message service تعریف شده است و به دلیل ارث بری این کلاس در اینجا نیز افزوده شد</p>
+</td>
+</tr>
+<tr>
+<td width="64">
+<p><strong>5</strong></p>
+</td>
+<td width="198">
+<p>Email Message Service</p>
+</td>
+<td width="141">
+<p>افزودن تابع ارسال پیام تلگرامی</p>
+</td>
+<td width="292">
+<p>این تابع در واسط مربوط به message service تعریف شده است و به دلیل ارث بری این کلاس در اینجا نیز افزوده شد</p>
+</td>
+</tr>
+<tr>
+<td width="64">
+<p><strong>6</strong></p>
+</td>
+<td width="198">
+<p>Main</p>
+</td>
+<td width="141">
+<p>افزودن قابلیت ارسال یک پیام تلگرامی در کد</p>
+</td>
+<td width="292">
+<p>با دادن شماره کد 3 به کاربر این امکان برایش فراهم است که یک پیام تلگرامی ارسال کند.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-مجموع تعداد تغییرات: ..............
+مجموع تعداد تغییرات: 6
 
 ### گام ۲: تحلیل و وارسی برنامه از منظر تحقق و یا عدم تحقق اصول SOLID
 در خصوص این برنامه‌ای که نوشته شده بود و شما یک قابلیت به آن اضافه کردید، بر اساس اصول SOLID موارد نقض و یا محقق شدن هر کدام از آن اصول را بیان کنید. در بیان موارد تحقق و نقض، علت تحقق و یا نقض را نیز به صورت کامل توضیح دهید:
@@ -193,7 +221,7 @@
 <p><strong>موارد نقض</strong></p>
 </td>
 <td>
-<p>&nbsp;</p>
+<p></p>
 </td>
 </tr>
 <tr>
