@@ -3,7 +3,6 @@ package Step_3_With_SOLID;
 import Step_3_With_SOLID.models.EmailMessage;
 import Step_3_With_SOLID.models.Message;
 import Step_3_With_SOLID.models.SmsMessage;
-import Step_3_With_SOLID.models.TelegramMessage;
 import Step_3_With_SOLID.services.EmailMessageService;
 import Step_3_With_SOLID.services.MessageService;
 import Step_3_With_SOLID.services.SmsMessageService;
