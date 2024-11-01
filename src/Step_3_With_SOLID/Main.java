@@ -16,7 +16,7 @@ public class Main {
         int userAnswer=0;
         do{
             Message message = null;
-            MessageService messageService;
+            MessageService messageService = null;
             String source;
             String target;
             String content;
@@ -62,11 +62,10 @@ public class Main {
 
             if(message instanceof SmsMessage){
                 messageService = new SmsMessageService();
-                messageService.sendSmsMessage((SmsMessage) message);
             }else if(message instanceof EmailMessage){
                 messageService = new EmailMessageService();
-                messageService.sendEmailMessage((EmailMessage) message);
             }
+            messageService.sendMessage(message);
 
         }while (true);
     }
