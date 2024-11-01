@@ -1,12 +1,12 @@
-package edu.sharif.selab.services;
+package Step_1_Non_Solid.services;
 
-import edu.sharif.selab.models.EmailMessage;
-import edu.sharif.selab.models.SmsMessage;
-import edu.sharif.selab.models.TelegramMessage;
+import Step_1_Non_Solid.models.EmailMessage;
+import Step_1_Non_Solid.models.SmsMessage;
+import Step_1_Non_Solid.models.TelegramMessage;
 
 import java.util.regex.Pattern;
 
-public class EmailMessageService implements MessageService{
+public class EmailMessageService implements MessageService {
     @Override
     public void sendSmsMessage(SmsMessage smsMessage) {
         //Empty Body

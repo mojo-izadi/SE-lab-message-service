@@ -1,6 +1,6 @@
-package edu.sharif.selab.models;
+package Step_1_Non_Solid.models;
 
-public class TelegramMessage extends Message{
+public class TelegramMessage extends Message {
 
     private String senderId;
     private String receiverId;

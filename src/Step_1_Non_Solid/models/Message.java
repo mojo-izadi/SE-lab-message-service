@@ -1,4 +1,4 @@
-package edu.sharif.selab.models;
+package Step_1_Non_Solid.models;
 
 public class Message {
     String content;

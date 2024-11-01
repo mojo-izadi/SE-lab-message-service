@@ -1,6 +1,6 @@
-package edu.sharif.selab.models;
+package Step_1_Non_Solid.models;
 
-public class SmsMessage extends Message{
+public class SmsMessage extends Message {
     private String sourcePhoneNumber;
     private String targetPhoneNumber;
 

@@ -1,8 +1,8 @@
-package edu.sharif.selab.services;
+package Step_3_With_SOLID.services;
 
-import edu.sharif.selab.models.EmailMessage;
-import edu.sharif.selab.models.SmsMessage;
-import edu.sharif.selab.models.TelegramMessage;
+import Step_3_With_SOLID.models.EmailMessage;
+import Step_3_With_SOLID.models.SmsMessage;
+import Step_3_With_SOLID.models.TelegramMessage;
 
 public class SmsMessageService implements MessageService{
     @Override
@@ -18,12 +18,6 @@ public class SmsMessageService implements MessageService{
     public void sendEmailMessage(EmailMessage emailMessage) {
         //Empty Body!
     }
-
-    @Override
-    public void sendTelegramMessage(TelegramMessage telegramMessage) {
-        //Empty Body!
-    }
-
     private boolean validatePhoneNumber(String phoneNumber) {
         // Check if the phone number is exactly 11 characters long
         if (phoneNumber.length() != 11) {
