@@ -125,7 +125,7 @@
 <p><strong>6</strong></p>
 </td>
 <td width="198">
-<p>Step_3_With_SOLID.Main</p>
+<p>Main</p>
 </td>
 <td width="141">
 <p>افزودن قابلیت ارسال یک پیام تلگرامی در کد</p>
